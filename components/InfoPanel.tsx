@@ -1,5 +1,5 @@
 import React from 'react';
-import { GrashofType, LinkLengths, LinkRole } from '../types';
+import { GrashofType, LinkLengths, LinkRole } from '../types.ts';
 
 interface InfoPanelProps {
   grashofInfo: { type: GrashofType, shortest: LinkRole, longest: LinkRole };

@@ -1,5 +1,5 @@
 import React from 'react';
-import { LinkLengths } from '../types';
+import { LinkLengths } from '../types.ts';
 import { Play, Pause, RotateCw, RotateCcw } from 'lucide-react';
 
 interface ControlsProps {

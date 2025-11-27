@@ -1,9 +1,9 @@
 import React, { useState, useEffect, useRef, useCallback } from 'react';
-import LinkageCanvas from './components/LinkageCanvas';
-import Controls from './components/Controls';
-import InfoPanel from './components/InfoPanel';
-import { calculateJoints, determineGrashof } from './utils/kinematics';
-import { LinkLengths, JointCoordinates } from './types';
+import LinkageCanvas from './components/LinkageCanvas.tsx';
+import Controls from './components/Controls.tsx';
+import InfoPanel from './components/InfoPanel.tsx';
+import { calculateJoints, determineGrashof } from './utils/kinematics.ts';
+import { LinkLengths, JointCoordinates } from './types.ts';
 import { Settings } from 'lucide-react';
 
 const App: React.FC = () => {

@@ -1,5 +1,5 @@
 import React from 'react';
-import { JointCoordinates, LinkLengths, LinkRole } from '../types';
+import { JointCoordinates, LinkLengths, LinkRole } from '../types.ts';
 
 interface LinkageCanvasProps {
   coords: JointCoordinates;

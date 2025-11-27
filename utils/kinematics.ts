@@ -1,4 +1,4 @@
-import { LinkLengths, JointCoordinates, GrashofType, LinkRole } from '../types';
+import { LinkLengths, JointCoordinates, GrashofType, LinkRole } from '../types.ts';
 
 export const calculateJoints = (lengths: LinkLengths, thetaInput: number): JointCoordinates => {
   const { frame: d, input: a, coupler: b, output: c } = lengths;
