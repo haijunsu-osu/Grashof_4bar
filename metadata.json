@@ -1,0 +1,5 @@
+{
+  "name": "Grashof Explorer",
+  "description": "An interactive 4-bar linkage simulator to demonstrate Grashof's Law and mechanism rotatability.",
+  "requestFramePermissions": []
+}
