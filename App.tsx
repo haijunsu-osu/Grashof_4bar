@@ -24,7 +24,7 @@ const App: React.FC = () => {
   // Derived State
   const joints: JointCoordinates = calculateJoints(lengths, angle);
   const grashofInfo = determineGrashof(lengths);
-  const requestRef = useRef<number>();
+  const requestRef = useRef<number>(0);
 
   const handleLengthChange = (key: keyof LinkLengths, value: number) => {
     setLengths(prev => ({ ...prev, [key]: value }));
